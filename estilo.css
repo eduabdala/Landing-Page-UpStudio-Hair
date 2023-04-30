@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
 
 * {
-    border: 1px solid red;
+    
     font-family: 'Inter', sans-serif;
 }
 
@@ -78,4 +78,10 @@ main div {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+@media(max-width: 600px){
+    main div {
+        width: 90%;
+    }
 }
