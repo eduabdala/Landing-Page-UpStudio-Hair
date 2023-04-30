@@ -82,11 +82,12 @@ main div {
 
 @media(max-width: 600px){
     header nav {
-        flex-wrap: wrap;
+        display: hidden;
     }
 
     main div {
-        margin-top: 100px;
+        margin-top: 2rem;
+        padding: 1rem;
         width: 100%;
         display: block;
     }
