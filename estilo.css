@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
 
 * {
-    
+    border: 1px solid red;
     font-family: 'Inter', sans-serif;
 }
 
@@ -15,7 +15,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    z-index: 1000;
+
 }
 
 h2.logo span {
@@ -81,7 +81,13 @@ main div {
 }
 
 @media(max-width: 600px){
+    header nav {
+        flex-wrap: wrap;
+    }
+
     main div {
-        width: 90%;
+        margin-top: 100px;
+        width: 100%;
+        display: block;
     }
 }
