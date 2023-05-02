@@ -7,7 +7,7 @@
 body {
     margin: 0;
     width: 100%;
-    background-image: url(imgs/wave.png);
+    background-image: url(imgs/wave_body.svg);
     background-repeat: no-repeat;
 }
 
@@ -32,7 +32,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #FFB800;
+    color: #50C3BB;
 
 }
 
