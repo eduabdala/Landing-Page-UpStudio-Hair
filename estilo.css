@@ -97,7 +97,7 @@ main {
 .cards {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: flex-end;
     width: 100%;
 }
 
