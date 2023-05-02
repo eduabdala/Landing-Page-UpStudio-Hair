@@ -66,7 +66,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
 }
  main div {
     margin: 0.5rem;
@@ -85,6 +85,36 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.avaliacoes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.card_avaliacao {
+    width: 10rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
 }
 
 @media(max-width: 600px){
