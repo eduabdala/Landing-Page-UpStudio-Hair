@@ -36,7 +36,7 @@ header nav a:hover {
 
 }
 
-.call_to_action_nav {
+.call_to_action_nav, .call_to_action_main {
     background: #50ABBF;
     color: white;
     border-radius: 20px;
@@ -44,14 +44,18 @@ header nav a:hover {
     width: 150px;
     font-weight: bold;
     font-size: 16px;
+    text-align: center;
+    text-decoration: none;
 }
 
-.call_to_action_nav:hover {
+.call_to_action_main {
+    width: 300px;
+}
+
+.call_to_action_nav:hover, .call_to_action_main:hover {
     color: white;
     background: #50C3BB;
 }
-
-
 
 main {
     max-width: 800px;
@@ -71,6 +75,8 @@ main {
     align-items: center;
  }
 
+ 
+
 .ilustracao{
     width: 20rem;
 }
@@ -82,6 +88,9 @@ main {
 }
 
 @media(max-width: 600px){
+    body {
+        background-image: none;
+    }
     .logo {
         font-size: 1rem;
     }
@@ -93,9 +102,13 @@ main {
         display: none;
     }
 
+    main {
+        background-image: url(imgs/wave.png);
+        background-repeat: no-repeat;
+    }
+
     main, main div {
         flex-wrap: wrap;
-       
     }
 
     .copy {
