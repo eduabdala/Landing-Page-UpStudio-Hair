@@ -7,7 +7,7 @@
 body {
     margin: 0;
     width: 100%;
-    background-image: url(imgs/fundo.png);
+    background-image: url(imgs/wave.png);
     background-repeat: no-repeat;
 }
 
@@ -20,7 +20,7 @@ header {
 }
 
 h2.logo span {
-    color: #FFB800;
+    color: #50ABBF;
     font-size: 2rem;
 }
 
@@ -37,7 +37,8 @@ header nav a:hover {
 }
 
 .call_to_action_nav {
-    background: #FFB800;
+    background: #50ABBF;
+    color: white;
     border-radius: 20px;
     padding: 0.9rem;
     width: 150px;
@@ -47,7 +48,7 @@ header nav a:hover {
 
 .call_to_action_nav:hover {
     color: white;
-    background: black;
+    background: #50C3BB;
 }
 
 
@@ -61,6 +62,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
  main div {
     margin: 0.5rem;
