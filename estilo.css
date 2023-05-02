@@ -8,6 +8,7 @@ body {
     margin: 0;
     width: 100%;
     background-image: url(imgs/fundo.png);
+    background-repeat: no-repeat;
 }
 
 header {
@@ -49,23 +50,24 @@ header nav a:hover {
     background: black;
 }
 
-main.fundo {
-    
-    z-index: -1000;
-}
+
 
 main {
     max-width: 800px;
     min-width: 280px;
     margin: auto;
-    padding-top: 1rem;
+    padding-top: 0.6rem;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
-
+ main div {
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
 
 .ilustracao{
     width: 20rem;
@@ -82,14 +84,15 @@ main {
         display: none;
     }
 
-    main {
+    main, main div {
         flex-wrap: wrap;
+       
     }
 
     .copy {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         width: 100%;
-        margin: 0.7rem;
+        margin: 0.4rem;
     }
 
 }
