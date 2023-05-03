@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
 
 * {
-    
     font-family: 'Inter', sans-serif;
 }
 
@@ -113,7 +112,6 @@ main {
 }
 
 footer {
-    padding: 1rem;
     margin-top: 2rem;
     border-top: 1px solid gainsboro;
     width: 100%;
