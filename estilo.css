@@ -71,7 +71,7 @@ main {
     flex-direction: column;
 }
  main div {
-    margin: 0.5rem;
+    margin:0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,12 +140,23 @@ footer {
 
     main, main div {
         flex-wrap: wrap;
+        margin: 0;
     }
 
     .copy {
         font-size: 0.8rem;
         width: 100%;
         margin: 0.4rem;
+    }
+
+
+    .cards {
+        font-size: 0.5rem;
+        margin: 0;
+    }
+
+    .avaliacoes img {
+        width: 5rem;
     }
 
 }
