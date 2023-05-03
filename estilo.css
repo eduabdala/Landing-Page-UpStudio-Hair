@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
 
 * {
+    border: 1px solid red;
     font-family: 'Inter', sans-serif;
 }
 
@@ -9,6 +10,7 @@ body {
     width: 100%;
     background-image: url(imgs/wave_body.svg);
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 
 header {
@@ -75,7 +77,6 @@ main {
     align-items: center;
  }
 
- 
 
 .ilustracao{
     width: 20rem;
