@@ -89,6 +89,7 @@ main {
 }
 
 .avaliacoes {
+    margin-top: 3rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -112,6 +113,9 @@ main {
 }
 
 footer {
+    padding: 1rem;
+    margin-top: 2rem;
+    border-top: 1px solid gainsboro;
     width: 100%;
     display: flex;
     justify-content: center;
