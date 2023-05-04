@@ -90,7 +90,7 @@ main {
 }
 
 .avaliacoes {
-    margin-top: 3rem;
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -118,6 +118,7 @@ main {
 }
 
 .beneficios {
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -134,12 +135,22 @@ main {
 }
 
 footer {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border-top: 1px solid gainsboro;
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     bottom: 0;
+}
+
+
+footer nav a img{
+    width: 2rem;
+    margin: 0.5rem;
+    margin-top: 2rem;
 }
 
 @media(max-width: 600px){
