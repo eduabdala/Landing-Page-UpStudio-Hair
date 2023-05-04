@@ -90,7 +90,7 @@ main {
 }
 
 .avaliacoes {
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -118,7 +118,7 @@ main {
 }
 
 .beneficios {
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
