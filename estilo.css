@@ -161,8 +161,9 @@ footer {
     .avaliacoes img {
         width: 5rem;
     }
-    .beneficios{
-        min-width: 200px;
+
+    .beneficios {
+        font-size: 1rem;
     }
 
 }
